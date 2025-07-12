@@ -13,9 +13,8 @@ This code is the PyTorch implementation of PIT model. Our PIT achieves **state-o
 > <img width="800" src="figs/git.png">
 > </p>
 
-|                          *img_092 (x4)*                           |                          *img_098 (x4)*                           |                          *HR*                           |                          *LR*                           |*SwinIR*                           |*ART (ours)*                           |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |:----------------------------------------------------------: |:----------------------------------------------------------: |
-| <img src="figs/Resize_ComL_img_092_HR_x4.png"  height=110 width=135> | <img src="figs/Resize_ComL_img_098_HR_x4.png"  height=110 width=135> | <img src="figs/ComS_img_092_HR_x4.png" width=101 height=51> <img src="figs/ComS_img_098_HR_x4.png" width=101 height=51> | <img src="figs/ComS_img_092_Bicubic_x4.png" width=101 height=51> <img src="figs/ComS_img_098_Bicubic_x4.png" width=101 height=51> | <img src="figs/ComS_img_092_SwinIR_x4.png" width=101 height=51> <img src="figs/ComS_img_098_SwinIR_x4.png" width=101 height=51> |<img src="figs/ComS_img_092_ART_x4.png" width=101 height=51> <img src="figs/ComS_img_098_ART_x4.png" width=101 height=51> |
+<img width="1402" height="843" alt="image" src="https://github.com/user-attachments/assets/4906ce12-ee51-43aa-af3c-fd18d5533478" />
+
 
 ## Requirements
 - python 3.8
