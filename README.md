@@ -13,7 +13,6 @@ This code is the PyTorch implementation of PIT model. Our PIT achieves **state-o
 > <img width="800" src="figs/git.png">
 > </p>
 
-<img width="1402" height="843" alt="image" src="https://github.com/user-attachments/assets/4906ce12-ee51-43aa-af3c-fd18d5533478" />
 
 
 ## Requirements
