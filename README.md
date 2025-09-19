@@ -57,7 +57,7 @@ Download  training and testing datasets and put them into the folder`datasets/`.
 ```bash
 
 python basicsr/train.py -opt options/train/train_PIT_SR_x2.yml
-python basicsr/train.py -opt options/train/train_PIT_S_SR_x4.yml
+python basicsr/train.py -opt options/train/train_PIT_SR_x4.yml
 ```
 Run the script then you can find the generated experimental logs in the folder`experiments`.
 
