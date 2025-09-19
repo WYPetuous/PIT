@@ -1,4 +1,4 @@
-# Parallel Interactive Transformer for Single Infrared Image Super-resolution
+# Spatial-Frequency Collaborative Learning for Infrared Image Super-Resolution
 
 
 
@@ -52,8 +52,8 @@ Used training and testing sets can be downloaded as follows: [M3FD_TNO_RoadScene
 Download  training and testing datasets and put them into the folder`datasets/`. Go to the folder to find details of directory structure.
 
 ##Training
-1.Please download the corresponding training datasets and put them in the folder`datasets/DF2K`. Download the testing datasets and put them in the folder`datasets/SR`.
-2.Follow the instructions below to begin training our ART model.
+1.Please download the corresponding training datasets and put them in the folder`datasets`. Download the testing datasets and put them in the folder`datasets`.
+2.Follow the instructions below to begin training our PIT model.
 ```bash
 
 python basicsr/train.py -opt options/train/train_PIT_SR_x2.yml
@@ -63,10 +63,10 @@ Run the script then you can find the generated experimental logs in the folder`e
 
 
 ##Testing
-1.Please download the corresponding testing datasets and put them in the folder`datasets/SR`. Download the corresponding models and put them in the folder`experiments/pretrained_models`.
-2.Follow the instructions below to begin testing our ART model.
+1.Please download the corresponding testing datasets and put them in the folder`datasets`. Download the corresponding models and put them in the folder`experiments`.
+2.Follow the instructions below to begin testing our PIT model.
 ```bash
-# test ART model for image SR. You can find corresponding results in Table 2 of the main paper.
+# test PIT model for image SR.
 python basicsr/test.py -opt options/test/test_PIT_SR_x2.yml
 python basicsr/test.py -opt options/test/test_PIT_SR_x4.yml
 ```
