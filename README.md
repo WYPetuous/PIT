@@ -36,7 +36,7 @@ python setup.py develop
 ---
 
 ##MORE
-(https://imgsli.com/NDE2MzIx)
+<a href="https://imgsli.com/NDE2MzIx">
 
 
 ##Models
