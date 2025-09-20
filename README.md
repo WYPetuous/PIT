@@ -7,7 +7,7 @@
 ---
 This code is the PyTorch implementation of PIT model. Our PIT achieves **state-of-the-art** performance in Infrared Image Super-resolution
 
-[<img src="assets/3.pdf" height="223px"/>]
+[<img src="assets/5.png" height="223px"/>]
 
 >**Abstract:**
 >Infrared image super-resolution (IRSR) aims at improving the resolution of infrared images while recovering the structure and texture details. To enhance the performance of IRSR, both spatial domain information and the frequency domain information are crutial. In this paper, we explore a spatial-frequency collaborative learning strategy to comprehensively utilize the spatial and frequency information for IRSR. Specifically, we propose a frequency domain attention (FDA) module integrated in parallel with dense and sparse attention to enable collaborative modeling across spatial and frequency domains, thereby enhancing the frequency representation capability of the network. Moreover, to effectively capture hierarchical information, we propose a Parallel Interactive Transformer (PIT) method by applying dense and sparse modeling to shallow features separately, and we propose a content-aware branch fusion (CABF) module to adaptively integrate their complementary advantages. Extensive experiments demonstrate that PIT outperforms existing state-of-the-art methods on multiple public infrared image datasets. 
