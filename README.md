@@ -16,10 +16,10 @@ This code is the PyTorch implementation of PIT model. Our PIT achieves **state-o
 
 ##More results
 
-[<img src="assets/4.png" height="446px"/>](https://imgsli.com/NDE2NTQz)
-[<img src="assets/1.png" height="446px"/>](https://imgsli.com/NDE2NTM4)
-[<img src="assets/2.png" height="446px"/>](https://imgsli.com/NDE2NTM5)
-[<img src="assets/3.png" height="446px"/>](https://imgsli.com/NDE2NTQx)
+[<img src="assets/4.png" height="440px"/>](https://imgsli.com/NDE2NTQz)
+[<img src="assets/1.png" height="440px"/>](https://imgsli.com/NDE2NTM4)
+[<img src="assets/2.png" height="440px"/>](https://imgsli.com/NDE2NTM5)
+[<img src="assets/3.png" height="440px"/>](https://imgsli.com/NDE2NTQx)
 
 
 
