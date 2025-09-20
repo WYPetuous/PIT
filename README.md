@@ -36,7 +36,7 @@ python setup.py develop
 ---
 
 ##MORE
-[!more](https://imgsli.com/NDE2MzIx)
+[![对比图](https://imgsli.com/i/12019b83-c017-4e3f-9bb4-10ff8772cdea.jpg)](https://imgsli.com/NDE2MzIx)
 
 
 ##Models
