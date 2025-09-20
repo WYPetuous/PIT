@@ -71,4 +71,4 @@ If you find the code helpful in your resarch or work, please cite the following 
 
 ##Acknowledgement
 
-The codes are based on [BasicSR](https://github.com/xinntao/BasicSR)and [ART](https://github.com/gladzhang/ART). Thanks for their awesome works.
+The codes are based on [BasicSR](https://github.com/xinntao/BasicSR) and [ART](https://github.com/gladzhang/ART). Thanks for their awesome works.
