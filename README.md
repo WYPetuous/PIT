@@ -5,7 +5,6 @@ College of Electronic Science and Technology, National University of Defense Tec
 
 Institute of Optics and Electronics Chinese Academy of Sciences, University of Chinese Academy of Sciences
 
-
 ---
 Our PIT achieves **state-of-the-art** performance in Infrared Image Super-resolution
 
@@ -44,15 +43,6 @@ python setup.py develop
 
 
 
-
-
-
-##Datasets
-
-Used training and testing sets can be downloaded as follows: [M3FD_TNO_RoadScene](https://drive.google.com/drive/folders/1K8pRnyiwW6dJ0Kfr_yDVEI57qbXwoUjQ?usp=drive_link).
-
-
-Download  training and testing datasets and put them into the folder`datasets/`. Go to the folder to find details of directory structure.
 
 ##Training
 1.Please download the corresponding training datasets and put them in the folder`datasets`. Download the testing datasets and put them in the folder`datasets`.
