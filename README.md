@@ -14,11 +14,12 @@ This code is the PyTorch implementation of PIT model. Our PIT achieves **state-o
 
 
 ##Requirements
+```bash
 -python 3.8
 -pyTorch >= 1.8.0
 -NVIDIA GPU +[CUDA](https://developer.nvidia.com/cuda-downloads)
 
-###Installation
+##Installation
 ```bash
 git clone https://github.com/WYpetuous/PIT.git
 cd PIT
