@@ -1,8 +1,7 @@
 # Spatial-Frequency Collaborative Learning for Infrared Image Super-Resolution
 
-College of Electronic Science and Technology, National University of Defense Technology
-
-Institute of Optics and Electronics Chinese Academy of Sciences, University of Chinese Academy of Sciences
+College of Electronic Science and Technology, National University of Defense Technology     
+Institute of Optics and Electronics Chinese Academy of Sciences, University of Chinese Academy of Sciences   
 
 ---
 Our PIT achieves **state-of-the-art** performance in Infrared Image Super-resolution
