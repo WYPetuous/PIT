@@ -24,13 +24,11 @@ Our PIT achieves **state-of-the-art** performance in Infrared Image Super-resolu
 
 
 ##Requirements
-
+```bash
 -python 3.8
-
 -pyTorch >= 1.8.0
-
 -NVIDIA GPU +[CUDA](https://developer.nvidia.com/cuda-downloads)
-
+```
 ##Installation
 ```bash
 git clone https://github.com/WYpetuous/PIT.git
