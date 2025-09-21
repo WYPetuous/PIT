@@ -13,7 +13,7 @@ Our PIT achieves **state-of-the-art** performance in Infrared Image Super-resolu
 
 
 
-##More results
+## More results
 
 [<img src="assets/4.png" height="300px"/>](https://imgsli.com/NDE2NTQz)
 [<img src="assets/1.png" height="300px"/>](https://imgsli.com/NDE2NTM4)
@@ -24,13 +24,13 @@ Our PIT achieves **state-of-the-art** performance in Infrared Image Super-resolu
 
 
 
-##Requirements
+## Requirements
 
 -python 3.8  
 -pyTorch >= 1.8.0  
 -NVIDIA GPU +[CUDA](https://developer.nvidia.com/cuda-downloads)
 
-##Installation
+## Installation
 ```bash
 git clone https://github.com/WYpetuous/PIT.git
 cd PIT
@@ -40,11 +40,12 @@ python setup.py develop
 
 ## Datasets
 Used training and testing sets can be downloaded as follows:
-[Google Drive](https://drive.google.com/drive/folders/1K8pRnyiwW6dJ0Kfr_yDVEI57qbXwoUjQ?usp=drive_link)
+
+-[Google Drive](https://drive.google.com/drive/folders/1K8pRnyiwW6dJ0Kfr_yDVEI57qbXwoUjQ?usp=drive_link)
 
 
 
-##Training
+## Training
 1.Please download the corresponding training datasets and put them in the folder`datasets`. Download the testing datasets and put them in the folder`datasets`.
 2.Follow the instructions below to begin training our PIT model.
 ```bash
@@ -55,7 +56,7 @@ python basicsr/train.py -opt options/train/train_PIT_SR_x4.yml
 Run the script then you can find the generated experimental logs in the folder`experiments`.
 
 
-##Testing
+## Testing
 1.Please download the corresponding testing datasets and put them in the folder`datasets`. Download the corresponding models and put them in the folder`experiments`.
 2.Follow the instructions below to begin testing our PIT model.
 ```bash
@@ -64,7 +65,7 @@ python basicsr/test.py -opt options/test/test_PIT_SR_x2.yml
 python basicsr/test.py -opt options/test/test_PIT_SR_x4.yml
 ```
 
-##Citation
+## Citation
 
 If you find the code helpful in your resarch or work, please cite the following paper(s).
 ```
@@ -72,6 +73,6 @@ If you find the code helpful in your resarch or work, please cite the following 
 }
 ```
 
-##Acknowledgement
+## Acknowledgement
 
 The codes are based on [BasicSR](https://github.com/xinntao/BasicSR) and [ART](https://github.com/gladzhang/ART). Thanks for their awesome works.
