@@ -19,8 +19,8 @@ Our PIT achieves **state-of-the-art** performance in Infrared Image Super-resolu
 [<img src="assets/1.png" height="300px"/>](https://imgsli.com/NDE2NTM4)
 [<img src="assets/2.png" height="300px"/>](https://imgsli.com/NDE2NTM5)
 [<img src="assets/3.png" height="300px"/>](https://imgsli.com/NDE2NTQx)
-[<img src="assets/3.png" height="300px"/>](https://imgsli.com/NDE2NzQ4)
-[<img src="assets/3.png" height="300px"/>](https://imgsli.com/NDE2NzQ5)
+[<img src="assets/7.png" height="300px"/>](https://imgsli.com/NDE2NzQ4)
+[<img src="assets/6.png" height="300px"/>](https://imgsli.com/NDE2NzQ5)
 
 
 
