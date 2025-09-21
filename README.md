@@ -38,7 +38,9 @@ pip install -r requirements.txt
 python setup.py develop
 ```
 
-
+## Datasets
+Used training and testing sets can be downloaded as follows:
+[Google Drive](https://drive.google.com/drive/folders/1K8pRnyiwW6dJ0Kfr_yDVEI57qbXwoUjQ?usp=drive_link)
 
 
 
