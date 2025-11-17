@@ -64,6 +64,7 @@ Run the script then you can find the generated experimental logs in the folder`e
 python basicsr/test.py -opt options/test/test_PIT_SR_x2.yml
 python basicsr/test.py -opt options/test/test_PIT_SR_x4.yml
 ```
+Run the script then you can find the generated experimental logs in the folder`results`.
 
 ## Citation
 
