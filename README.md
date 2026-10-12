@@ -66,6 +66,11 @@ python basicsr/test.py -opt options/test/test_PIT_SR_x4.yml
 ```
 Run the script then you can find the generated experimental logs in the folder`results`.
 
+
+If you have any questions, please feel free to contact us at any time：
+wangyang0329@nudt.edu.cn
+wangyang224@mails.ucas.ac.cn
+
 ## Citation
 
 If you find the code helpful in your resarch or work, please cite the following paper(s).
