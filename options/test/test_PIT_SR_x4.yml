@@ -1,0 +1,90 @@
+# general settings
+name: test_PIT_SR_x4
+model_type: PITModel
+scale: 4
+num_gpu: 1
+manual_seed: 10
+
+datasets:
+  # test_1:  # the 1st test dataset
+  #   name: Set5
+  #   type: PairedImageDataset
+  #   dataroot_gt: datasets/M3FD/test5/HR
+  #   dataroot_lq: datasets/M3FD/test5/LR_bicubic/X4
+  #   filename_tmpl: '{}x4'
+  #   io_backend:
+  #     type: disk
+
+  # test_2:  # the 2nd test dataset
+  #   name: Set15
+  #   type: PairedImageDataset
+  #   dataroot_gt: datasets/M3FD/test15/HR
+  #   dataroot_lq: datasets/M3FD/test15/LR_bicubic/X4
+  #   filename_tmpl: '{}x4'
+  #   io_backend:
+  #     type: disk
+
+  # test_3:  # the 3rd test dataset
+  #   name: Set20
+  #   type: PairedImageDataset
+  #   dataroot_gt: datasets/M3FD/test20/HR
+  #   dataroot_lq: datasets/M3FD/test20/LR_bicubic/X4
+  #   filename_tmpl: '{}x4'
+  #   io_backend:
+  #     type: disk
+
+  test_4:  # the 4th test dataset
+    name: RoadScene
+    type: PairedImageDataset
+    dataroot_gt: datasets/RoadScene/HR
+    dataroot_lq: datasets/RoadScene/LR/X4
+    filename_tmpl: '{}'
+    io_backend:
+      type: disk      
+
+  test_5:  # the 5th test dataset
+    name: TNO
+    type: PairedImageDataset
+    dataroot_gt: datasets/TNO/HR
+    dataroot_lq: datasets/TNO/LR/X4
+    filename_tmpl: '{}'
+    io_backend:
+      type: disk
+
+
+
+# network structures
+network_g:
+  type: PIT
+  upscale: 4
+  in_chans: 3
+  img_size: 64
+  window_size: 8
+  img_range: 1.
+  depths: [4, 4, 4, 4, 4, 4]
+  interval: [4, 4, 4, 4, 4, 4]
+  embed_dim: 150
+  num_heads: [6, 6, 6, 6, 6, 6]
+  mlp_ratio: 4
+  upsampler: 'pixelshuffle'
+  resi_connection: '1conv'
+
+# path
+path:
+  pretrain_network_g: experiments/pretrained_models/PIT_SR_X4/net_g_latest.pth
+  strict_load_g: true
+
+# validation settings
+val:
+  save_img: true
+  suffix: ~  # add suffix to saved images, if None, use exp name
+
+  metrics:
+    psnr: # metric name, can be arbitrary
+      type: calculate_psnr
+      crop_border: 4
+      test_y_channel: true
+    ssim:
+      type: calculate_ssim
+      crop_border: 4
+      test_y_channel: true
