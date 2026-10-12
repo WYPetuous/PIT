@@ -38,12 +38,17 @@ pip install -r requirements.txt
 python setup.py develop
 ```
 
-## Datasets
+## Datasets and Models
 Used training and testing sets can be downloaded as follows:
 
 -[Google Drive](https://drive.google.com/drive/folders/1K8pRnyiwW6dJ0Kfr_yDVEI57qbXwoUjQ?usp=drive_link)
 
 
+Download the models and put them into the folder experiments/pretrained_models：
+
+-[Google Drive]()
+
+You can directly use these models to evaluate your images, or retrain new models.
 
 ## Training
 1.Please download the corresponding training datasets and put them in the folder`datasets`. Download the testing datasets and put them in the folder`datasets`.
