@@ -46,7 +46,7 @@ Used training and testing sets can be downloaded as follows:
 
 Download the models and put them into the folder experiments/pretrained_models：
 
--[Google Drive]()
+-[Google Drive](https://drive.google.com/file/d/1flvyecT__P-fBh_eZIZUrcHNA-OPuJTp/view?usp=drive_link)
 
 You can directly use these models to evaluate your images, or retrain new models.
 
